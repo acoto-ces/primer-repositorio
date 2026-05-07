@@ -5,12 +5,14 @@ public class Adminces {
 
         Usuario usuario1 = new Usuario(
             "Agustin",
-            "agustin@gmail.com",
-            "1234"
+            "Coto",
+            "Uruguay",
+                "acoto@gmail.com",
+                "1234"
         );
-
-        System.out.println(usuario1.getNombre());
+        System.out.println(usuario1.getApellido());
         System.out.println(usuario1.getMail());
+        System.out.println(usuario1.getPaisDeNacimiento());
 
     }
 }
